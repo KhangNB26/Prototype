@@ -1,0 +1,21 @@
+﻿dataset,filename,ground_truth,predicted_text,exact_match,wer
+English,en_img_01,"When people ask what I see in you, I just smile and look away because I'm afraid if they knew, they'd fall in love with you too","When peopleask what I see in you, I just smile and look away because I'm afraid if they knew they'd fall in love with you too.",0,0.14814814814814814
+English,en_img_02,The quick brown fox jumped over the 5 lazy dogs!,Thequickbrown1 umpedoverthe 5 azydogs!,0,0.9
+English,en_img_03,Creating an OCR Communication App with Tesseract.js and React (Part 1),Creating an OcR Communication App with Tesseract.js and React (Part 1),0,0.09090909090909091
+English,en_img_04,Long-Term Care Insurance,Long-Term Care Insurance,1,0.0
+English,en_img_05,How to print a line break in Python,How to print a line break in Python,1,0.0
+English,en_img_06,3. Write a program that prompts the user for two sentences and prints the combined words from both in alphabetical order. You can ignore the case.,3.Writeaprogramthatpromptstheuserfort sentencesandprintsthecombinedwordsfrom oothinalphabeticalorder.Youcanignorecase,0,1.0
+English,en_img_07,"Therefore, Jakob has studied every night for a week. Therefore, he should get a good grade on the test.","Therefore, Jakobhasstudied everynight foraweek.Therefore,heshould getagoodgradeonthetest.",0,0.9473684210526315
+English,en_img_08,5 Milton would insert into the printed text of his poem his own anticipation that his epic would receive the same universal approbation as Homer's and Virgil's.,5 Milton would insert into the printed text of his poem his o anticipation that his epic would receive the same universal approbationasHomer's andVirgil's.,0,0.2222222222222222
+English,en_img_09,"Word processing: This is the process of manipulating text, characters, words, and sentences in such a manners as to make the final document free of errors and attractive to look at.","Word processing: This is the process of manipulating text, character words, and sentences in such a manners as to make the final document free of errors and attractive to look at.",0,0.03225806451612903
+English,en_img_10,"It doesn't matter what others are doing, it matters what you are doing.","It doesn't matter what others are doing, it matters what you are doing.",1,0.0
+French,fr_img_01,unſerm Wege durch das Leben ſo oft be,Leben so ot das (p.110 Wege erm,0,0.875
+French,fr_img_02,"faſt woͤrtlich ſo lautet, wie das indiſche in der","wirtlidy os lautet, wie das indisce ia",0,0.6666666666666666
+French,fr_img_03,"Centauren, ihre pelasgiſchen Kabiren verrathen uns",verratbey Kabiren asatciea,0,0.8333333333333334
+French,fr_img_04,"Dinge, welche eine neue Kunſt, eine neue Poe","Runit, eine asue ANDU ∂V)I 3(3}39} §",0,0.875
+French,fr_img_05,"Tyrannei in die Luft ſprengt, daß es eine Nacht",3 daß es eine prannei in die Luft sprengt .,0,1.1111111111111112
+French,fr_img_06,"nur die Kunſt nachbleibt, ſo taucht eine Moral","M taucht nacgte,",0,0.875
+French,fr_img_07,"das Leben, das Leben iſt es, das die Kunſt ver",P8 Dos bie niS,0,1.0
+French,fr_img_08,Schoͤnheit darzuſtellen; ihr gehoͤrt das Bewegte,D PSy B,0,1.0
+French,fr_img_09,"ob die Poeſie in ihrer Aeußerung bei dieſem, je",Aenßerung dd ¡hrer u! e D9,0,1.0
+French,fr_img_10,"lich behaglich leben laͤßt, ein Freund des Manier","Last, in Frnd da sa Dioagid Icben",0,1.0
