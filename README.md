@@ -2,45 +2,73 @@
 
 Welcome to the **Hekate Prototype**! This folder contains the initial implementation and experimental features for the Hekate project.
 
-## Structure
+---
 
-- `English_Image` — Image contains texts in English for OCR.
-- `French_Image` — Image contains texts in French for OCR.
-- `ocr_evaluation.py` — Code for evaluating ocr.
-- `ocr_extract_json.py` — Process of: Load image -> OCR -> Extract text in JSON
+## 📁 Project Structure
 
-## Getting Started
+- **English_Image/** — Images with English text for OCR evaluation.
+- **French_Image/** — Images with French text for OCR evaluation.
+- **ocr_evaluation.py** — Script for evaluating OCR performance.
+- **ocr_extract_json.py** — Script for extracting OCR results and exporting them as JSON.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/KhangNB26/Prototype.git
-    cd Prototype
-    ```
-2. Install Dependencies
-    ```bash
-    pip install scikit-learn paddlepaddle paddleocr jiwer pandas
-    ```
-3. OCR Evaluation
-    To evaluate the OCR using PaddleOCR, run the provided scripts:
-    ```bash
-    python Prototype/ocr_evaluation.py
-    ```
-    This will result a csv file called ocr_evaluation_all.csv. Open this file to see:
-    - Ground Truth - True text of image
-    - Predict Text - Text extracted by OCR
-    - Exact Match - Return 1 if two sentence are the same, 0 in contrast
-    - wer - Word Error
-    Metrics used for evaluating are Precision/Recall: Calculate for each character
-4. OCR Scripts
-    To see the simple demo of process: Load image -> OCR -> Output text in JSON, run the provided scripts:
-    ```bash
-    python Prototype/ocr_extract_json.py
-    ```
-    Output is a json file contains:
-    - image_path - Path of the image
-    - ocr_result - Include:
-        - text - Extracted text
-        - confidence
-        - bounding box
+---
 
-Note: English Image works well, but I'm using French Image in 1800s so the results might be not that correct.
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/KhangNB26/Prototype.git
+cd Prototype
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install scikit-learn paddlepaddle paddleocr jiwer pandas
+```
+
+---
+
+## 📝 Usage
+
+### 1. OCR Evaluation
+
+Run the evaluation script to assess OCR performance:
+
+```bash
+python Prototype/ocr_evaluation.py
+```
+
+This will generate a CSV file named `ocr_evaluation_all.csv` containing:
+
+- **Ground Truth** — True text from the image
+- **Predict Text** — Text extracted by OCR
+- **Exact Match** — 1 if prediction matches ground truth, 0 otherwise
+- **WER** — Word Error Rate
+- **Precision/Recall** — Calculated per character
+
+---
+
+### 2. OCR Extraction to JSON
+
+Run the extraction script for a demo of the process (Load image → OCR → Output JSON):
+
+```bash
+python Prototype/ocr_extract_json.py
+```
+
+This will output a JSON file with:
+
+- `image_path` — Path to the processed image
+- `ocr_result`:
+    - `text` — Extracted text
+    - `confidence` — OCR confidence score
+    - `bounding box` — Location of detected text
+
+---
+
+## ⚠️ Notes
+
+- The OCR works well on English images.
+- Results on French images (especially from the 1800s) may be less accurate due to historical font and
